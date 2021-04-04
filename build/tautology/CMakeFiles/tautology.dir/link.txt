@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/tautology.dir/tautology.cpp.o  -o tautology libtautologylib.a 

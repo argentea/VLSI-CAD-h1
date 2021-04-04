@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.cpp
+Tautolopylib.h
+/home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
+
+/home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
+vector
+-
+string
+-
+iostream
+-
+stdlib.h
+-
+

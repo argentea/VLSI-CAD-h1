@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+project(hw1)
+add_library(${PROJECT_NAME} INTERFACE)
+
+target_include_directories(${PROJECT_NAME}
+	INTERFACE
+	${PROJECT_SOURCE_DIR})
+
+#add_subdirectory(equivalence)
+add_subdirectory(tautology)
