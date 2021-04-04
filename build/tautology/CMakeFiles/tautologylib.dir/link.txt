@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtautologylib.a  CMakeFiles/tautologylib.dir/src/Parser.cpp.o CMakeFiles/tautologylib.dir/src/Tautolopylib.cpp.o
-/usr/bin/ranlib libtautologylib.a

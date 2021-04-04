@@ -1,6 +1,0 @@
-/home/kunpengjiang/test/h1/build/CMakeFiles/rebuild_cache.dir
-/home/kunpengjiang/test/h1/build/CMakeFiles/edit_cache.dir
-/home/kunpengjiang/test/h1/build/tautology/CMakeFiles/rebuild_cache.dir
-/home/kunpengjiang/test/h1/build/tautology/CMakeFiles/edit_cache.dir
-/home/kunpengjiang/test/h1/build/tautology/CMakeFiles/tautologylib.dir
-/home/kunpengjiang/test/h1/build/tautology/CMakeFiles/tautology.dir
