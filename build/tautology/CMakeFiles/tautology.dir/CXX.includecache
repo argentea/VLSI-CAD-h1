@@ -11,6 +11,8 @@ istream
 -
 fstream
 -
+sstream
+-
 Tautolopylib.h
 /home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
 

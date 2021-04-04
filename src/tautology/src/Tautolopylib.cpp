@@ -69,6 +69,9 @@ bool CubeList::isUnate() {
 	int varNum = matrix[0].size();
 	for(auto cube: matrix) {
 		for(int i = 0; i < varNum; i++){
+			if(cube[i] == NOTCARE){
+				continue;
+			}
 			if(flag[i] == NOTCARE) {
 				flag[i] = cube[i];
 			}else if(flag[i] != cube[i]) {
@@ -127,18 +130,19 @@ Rule CubeList::checkRule3() {
 	for(int i = 0; i < size; ++i) {
 		if(sigleP[i] && sigleN[i]) {
 			if(TAUTOLOGYTEST)
-				cout << "Tautology:: checkRule3 end\n";
+				cout << "Tautology:: checkRule3 end TRUE\n";
 			return TRUE;
 		}
 	}
 	if(TAUTOLOGYTEST)
-		cout << "Tautology:: checkRule3 end\n";
+		cout << "Tautology:: checkRule3 end NOTKNOW\n";
 	return NOTKNOW;
 }
 
 void CubeList::printCubeList() {
 	if(TAUTOLOGYTEST)
 		cout << "print:: CubeList\n";
+	cerr << "size: " << matrix.size() << " varNum: " << matrix[0].size() << endl;
 	for(auto cube: matrix) {
 		for(auto var: cube) {
 			if(var == POSITIVE){
@@ -157,6 +161,7 @@ void CubeList::printSATList() {
 	int num = 0;
 	int varNum = matrix[0].size();
 	string symbol("a");
+	cout << "(";
 	for(auto cube: matrix) {
 		for(int i = 0; i < varNum; i++){
 			if(cube[i] == POSITIVE){
@@ -171,7 +176,7 @@ void CubeList::printSATList() {
 			}
 		}
 		if(cube != matrix.back()) {
-			cout << "||";
+			cout << ")||(";
 		}
 	}
 	cout << endl;

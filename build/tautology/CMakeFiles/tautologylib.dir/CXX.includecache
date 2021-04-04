@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.cpp
+/home/kunpengjiang/test/h1/src/tautology/src/Parser.cpp
+Parser.h
+/home/kunpengjiang/test/h1/src/tautology/src/Parser.h
+Tautolopylib.h
+/home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
+
+/home/kunpengjiang/test/h1/src/tautology/src/Parser.h
+istream
+-
+fstream
+-
+sstream
+-
 Tautolopylib.h
 /home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
 

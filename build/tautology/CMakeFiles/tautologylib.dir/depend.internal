@@ -3,6 +3,8 @@
 
 tautology/CMakeFiles/tautologylib.dir/src/Parser.cpp.o
  /home/kunpengjiang/test/h1/src/tautology/src/Parser.cpp
+ /home/kunpengjiang/test/h1/src/tautology/src/Parser.h
+ /home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
 tautology/CMakeFiles/tautologylib.dir/src/Tautolopylib.cpp.o
  /home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.cpp
  /home/kunpengjiang/test/h1/src/tautology/src/Tautolopylib.h
