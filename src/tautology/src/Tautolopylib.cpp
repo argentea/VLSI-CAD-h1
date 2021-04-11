@@ -159,9 +159,11 @@ void CubeList::printCubeList() {
 
 void CubeList::printSATList() {
 	int num = 0;
+	int size = matrix.size();
 	int varNum = matrix[0].size();
 	string symbol("a");
 	cout << "(";
+	int j = 0;
 	for(auto cube: matrix) {
 		for(int i = 0; i < varNum; i++){
 			if(cube[i] == POSITIVE){
@@ -175,11 +177,12 @@ void CubeList::printSATList() {
 				cout << "^";
 			}
 		}
-		if(cube != matrix.back()) {
+		if(j != size-1) {
 			cout << ")||(";
 		}
+		j++;
 	}
-	cout << endl;
+	cout << ")" << endl;
 }
 
 bool CubeList::tautology() {

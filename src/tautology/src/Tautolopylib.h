@@ -45,6 +45,7 @@ public:
 	Checker(vector<vector<Value>> data):list(CubeList(data)) {};
 	bool run() {
 		list.printSATList();
+		list.printCubeList();
 		return list.tautology();
 	};
 };
