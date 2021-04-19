@@ -1,0 +1,6 @@
+[submodule "thirdparty/minisat"]
+	path = thirdparty/minisat
+	url = git@github.com:niklasso/minisat.git
+[submodule "thirdparty/abc"]
+	path = thirdparty/abc
+	url = git@github.com:berkeley-abc/abc.git
